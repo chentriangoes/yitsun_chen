@@ -1,3 +1,49 @@
+# yitsun_chen_Portfolio
+Yi-tsun's react portfolio 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## 📋 Description
+
+### 📷 Screenshots
+
+
+## 🕹 Technologies
+* [gh-pages](https://www.npmjs.com/package/gh-pages)
+* [React Router](https://reactrouter.com/docs/en/v6/getting-started/installation)
+ 
+
+## Installation
+
+Create a react app under the same path (folder)
+```
+npx create-react app .
+```
+
+Install dependencies
+```
+npm i
+```
+
+## Troubleshooting
+
+
+## ⛓ Links
+Depolyed Application
+
+
+Github
+https://github.com/chentriangoes/React_Portfolio
+
+## ☎️ Questions
+For any questions about the project/repository please contact me @ [chentriangoes@gmail.com](mailto:chentriangoes@gmail.com) </br>
+GitHub @ [chentriangoes](https://github.com/chentriangoes) 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
