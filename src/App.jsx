@@ -1,21 +1,26 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
+import About from "./pages/About";
 
 function App() {
-  // Home -- /
-  // Project -- /project
-  // About -- /about
-
   return (
+    // about -- /about 
+    // project - /project
+    // home -- /
     <BrowserRouter>
-
+    
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/project" element={<Project />} />
       <Route path="/about" element={<About />} />
 
     </Routes>
-
+    
     </BrowserRouter>
+
+
+  
 /*    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
