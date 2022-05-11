@@ -1,5 +1,7 @@
 參考資料：
 https://www.youtube.com/watch?v=5I37iVCDUTU
+MUI https://mui.com/zh/material-ui/getting-started/installation/
+styled components  https://github.com/styled-components/styled-components
 
 # yitsun_chen_Portfolio
 Yi-tsun's react portfolio 

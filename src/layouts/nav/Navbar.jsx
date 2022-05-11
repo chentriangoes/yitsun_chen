@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
+import ShadeButton from '../../components/button/ShadeButton';
+ 
 export default function Navbar() {
-
     const navItems = [
         {
             title: 'Home 首頁',
@@ -20,26 +21,46 @@ export default function Navbar() {
             title: 'Coding Project 網頁開發',
             link: '/coding',
         },
+
+        //add the Personal Blog with 攝影 if having more time
         {
             title: 'Resume 履歷',
             link: '/resume',
         },
     ]
 
-  return (
-    <div>
+    const liStyle = {
+        listStyle: "none",
+    }
 
-        <ul>
+    const location = useLocation();
+
+    function isActive(link) {
+        return location.pathname === link;
+    }
+
+    function redirect(link){
+        //navigate(link);
+    }
+
+  return (
+    <nav>
+        <ul className='flex items-center justify-center'>
+            <li style={liStyle}>LOGO</li>
+
             {navItems.map((item) => {
                 return (
-                    <li>
-                        <Link to={item.link} >{item.title}</Link>
-                    </li>
-                )
-            })}
-           
-        </ul>
+                    <li key={item.link} style={liStyle}>
+                        <ShadeButton onClick={redirect(item.link)} isActive={isActive(item.link)}>
 
-    </div>
-  )
+                            <Link className="font-base" to={item.link} >
+                                {item.title}
+                            </Link>
+                        </ShadeButton>
+                    </li>
+                );
+            })} 
+        </ul>
+    </nav>
+  );
 }

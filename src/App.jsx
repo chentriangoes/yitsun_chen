@@ -14,6 +14,7 @@ function App() {
     // work -- /work
     // project -- /project
     // Resume -- /resume
+    // Blog -- /blog (with image holder, add this if having time)
 
     <BrowserRouter>
     
