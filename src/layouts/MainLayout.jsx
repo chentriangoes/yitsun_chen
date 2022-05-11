@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './nav/Navbar'
+import Footer from './footer/Footer'
 
 export default function MainLayout(props) {
   return (
@@ -9,8 +10,8 @@ export default function MainLayout(props) {
 
         {props.children}
 
-        {/* footer <Footer/> */}
-
+        {/* footer  */}
+        <Footer/>
     </div>
   )
 }
