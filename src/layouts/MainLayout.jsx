@@ -9,7 +9,8 @@ export default function MainLayout(props) {
 
         {props.children}
 
-        {/* footer */}
+        {/* footer <Footer/> */}
+
     </div>
   )
 }

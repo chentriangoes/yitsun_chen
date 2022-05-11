@@ -5,16 +5,24 @@ export default function Navbar() {
 
     const navItems = [
         {
-            title: 'Home',
+            title: 'Home 首頁',
             link: '/',
         },
         {
-            title: 'Project',
-            link: '/project',
+            title: 'About Dr Chen 陳博',
+            link: '/about',
         },
         {
-            title: 'About',
-            link: '/about',
+            title: 'Works 作品',
+            link: '/work',
+        },
+        {
+            title: 'Coding Project 網頁開發',
+            link: '/coding',
+        },
+        {
+            title: 'Resume 履歷',
+            link: '/resume',
         },
     ]
 

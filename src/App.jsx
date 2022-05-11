@@ -1,22 +1,31 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Project from "./pages/Project";
-import About from "./pages/About";
 import MainLayout from "./layouts/MainLayout";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Work from "./pages/Work";
+import Project from "./pages/Project";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
     // home -- /
-    // project - /project
     // about -- /about 
+    // work -- /work
+    // project -- /project
+    // Resume -- /resume
+
     <BrowserRouter>
     
     <MainLayout>
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/project" element={<Project />} />
       <Route path="/about" element={<About />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/coding" element={<Project />} />
+      <Route path="/resume" element={<Resume />} />
+
 
     </Routes>
     </MainLayout>
