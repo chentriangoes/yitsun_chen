@@ -1,7 +1,7 @@
 //type rfc to automatically import
-import React from 'react'
-import "./Home.css"
-import Homeimage from '../images/Grad.jpg'
+import React from 'react';
+import "./Home.css";
+import Homeimage from '../images/Grad.jpg';
 
 export default function Home() {
   return (

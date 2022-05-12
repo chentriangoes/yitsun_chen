@@ -21,7 +21,10 @@ export default function Navbar() {
             title: 'Coding Project 網頁開發',
             link: '/coding',
         },
-
+        {
+            title: 'Contact Me 聯絡我',
+            link: '/contact',
+        },
         //add the Personal Blog with 攝影 if having more time
         {
             title: 'Resume 履歷',
