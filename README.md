@@ -17,6 +17,9 @@ Yi-tsun's react portfolio
 * [gh-pages](https://www.npmjs.com/package/gh-pages)
 * [React Router](https://reactrouter.com/docs/en/v6/getting-started/installation)
 * [fontawesome](https://fontawesome.com/v6/docs/web/use-with/react/)
+* [Emailjs](https://www.emailjs.com/docs/examples/reactjs/)
+
+
 
 
  
