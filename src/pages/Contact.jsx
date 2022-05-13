@@ -62,7 +62,7 @@ export default function Contact() {
 							name="name"
 							value={name}
 							type='text'
-							placeholder='Harry Potter'
+							placeholder='My Name'
 							onChange={(e) => {
 								updateFormState(setName, e);
 							}}
@@ -101,7 +101,7 @@ export default function Contact() {
 							name="message"
 							value={message}
 							as='textarea'
-                            placeholder='Message'
+                            placeholder='My Message'
 							rows={3}
 							onChange={(e) => {
 								updateFormState(setMessage, e);
