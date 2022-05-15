@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 import ShadeButton from '../../components/button/ShadeButton';
+
+import logo from '../../images/logo.jpg'
  
 export default function Navbar() {
     const navItems = [
@@ -45,7 +47,7 @@ export default function Navbar() {
   return (
     <nav className='navbar'>
         <ul className='flex items-center justify-center'>
-            <li style={liStyle}>LOGO</li>
+            <li style={liStyle}><img src={logo} className="App-logo" alt="logo" /></li>
 
             {navItems.map((item) => {
                 return (

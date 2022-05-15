@@ -61,3 +61,10 @@ code {
 .navbar {
   margin-right: 60px;
 }
+
+
+.App-logo {
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
