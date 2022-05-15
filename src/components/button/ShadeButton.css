@@ -1,10 +1,11 @@
 
 .ShadeButton {
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: white;
+    background-color: #d9dcd6;
 
     cursor:pointer;
 
@@ -17,10 +18,13 @@
 }
 
 .ShadeButton:hover {
-    background-color: rgb(147, 143, 150);
+    background-color: rgb(182, 180, 184);
+    border-radius: 20px;
 }
 
 .ShadeButton-active {
     border-bottom: 2px;
     border-style: solid;
+    border-radius: 20px;
+    border-color: blueviolet;
 }
