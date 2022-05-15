@@ -1,9 +1,13 @@
 import React from 'react';
-import Lanyu from '../images/Lanyu.jpg';
+import TaiwanLove from '../images/TaiwanLove.jpg';
+import Lanyu02 from '../images/Lanyu02.jpeg';
 import knight01 from '../images/knight_01.jpg';
 import knight02 from '../images/knight_02.jpg';
 import knight03 from '../images/knight_03.jpg';
 import knight04 from '../images/knight_03.jpg';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import './Project.css'
 
@@ -14,14 +18,15 @@ export default function Project() {
       <section id="works">
           <section id="apps">
             <section className="top">
-                 <img src={Lanyu} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
+                 <img src={TaiwanLove} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
                    indigenous elderly of Dao's account about the underground house." width="100%" />
-                   <a className="rockoozi" rel="noreferrer" href="https://github.com/chentriangoes/junglr." target="_blank">
-                     <h3>Coding Project <span>Junglr.</span></h3>
+                   <a className="rockoozi" rel="noreferrer" href="https://project-2-dw.herokuapp.com/" target="_blank">
+                     <h3>Junglr. <span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/junglr./")}/></span></h3>
+                     
                    </a>
             </section>
 
-            <section className="bottom">
+            <section className="middle">
               <sectiion className="left">
                 <section>
                   <img src={knight01} alt="This is upper-left part of a giant wooshies of 4 Qingshan King's
@@ -58,6 +63,15 @@ export default function Project() {
                 </section>
               </section>
             </section>
+
+            <section className="bottom">
+                 <img src={Lanyu02} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
+                   indigenous elderly of Dao's account about the underground house." width="100%" />
+                   <a className="bottom-image" rel="noreferrer" href="https://github.com/chentriangoes/junglr." target="_blank">
+                     <h3>Coding Project <span>Junglr.</span></h3>
+                   </a>
+            </section>
+
           </section>   
       </section>
     </div>
