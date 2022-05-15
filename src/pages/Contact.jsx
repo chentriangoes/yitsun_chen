@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Button, Alert, Container } from 'react-bootstrap';
-//import "./Contact.css"
+import "./Contact.css"
 
 export default function Contact() {
     
@@ -45,19 +45,20 @@ export default function Contact() {
 		buttonColour: {
 			background: '#5e7e7c',
 		},
-		heading: {
-			fontSize: '5rem',
-		},
 	};
 
 	return (
-		<>
-			<Container>
-				<h2 style={styles.heading}>Contact Me</h2>
+<div>
+
+<h1 className="contact-me">Contact Me</h1>
+          <div className="form-container">
+		  <Container>
 				<Form onSubmit={handleSubmit}>
-					<Form.Group className='mb-3' controlId='name'>
+					<Form.Group className='type-text' controlId='name'>
 						<Form.Label>Name</Form.Label>
+						<div>
 						<Form.Control
+						    className='input-box'
 							required
 							name="name"
 							value={name}
@@ -67,10 +68,14 @@ export default function Contact() {
 								updateFormState(setName, e);
 							}}
 						/>
+						</div>
+
 					</Form.Group>
-					<Form.Group className='mb-3' controlId='email'>
+					<Form.Group className='type-text' controlId='email'>
 						<Form.Label>Email address</Form.Label>
+						<div>
 						<Form.Control
+						className='input-box'
 							required
 							name="email"
 							value={email}
@@ -80,10 +85,13 @@ export default function Contact() {
 								updateFormState(setEmail, e);
 							}}
 						/>
+						</div>
 					</Form.Group>
-					<Form.Group className='mb-3' controlId='subject'>
+					<Form.Group className='type-text' controlId='subject'>
 						<Form.Label>Message Subject</Form.Label>
+						<div>
 						<Form.Control
+						className='input-box'
 							required
 							name="subject"
 							value={subject}
@@ -93,10 +101,13 @@ export default function Contact() {
 								updateFormState(setSubject, e);
 							}}
 						/>
+						</div>
 					</Form.Group>
-					<Form.Group className='mb-3' controlId='message'>
+					<Form.Group className='type-text' controlId='message'>
 						<Form.Label>Message</Form.Label>
+						<div>
 						<Form.Control
+						className='input-box'
 							required
 							name="message"
 							value={message}
@@ -107,6 +118,7 @@ export default function Contact() {
 								updateFormState(setMessage, e);
 							}}
 						/>
+						</div>
 					</Form.Group>
 					<Button
 						type='submit'
@@ -116,6 +128,7 @@ export default function Contact() {
 						Send Message
 					</Button>
 				</Form>
+
 				{messageSent && (
 					<Alert
 						className='my-3 text-white'
@@ -125,14 +138,21 @@ export default function Contact() {
 					</Alert>
 				)}
 				{errorMessage && (
+					
 					<Alert
 						className='my-3 text-white'
+						/*change style plase */
 						style={{ ...styles.buttonColour, ...styles.border }}
 					>
 						Error sending email!
 					</Alert>
 				)}
 			</Container>
-		</>
+          </div>
+
+
+
+
+		</div>
 	);
 }
