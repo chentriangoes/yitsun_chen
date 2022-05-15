@@ -7,7 +7,7 @@ h3 {
     color: white;
 }
 
-#works {
+.works {
     display:flex;
     margin-top: 60px;
 }
@@ -25,29 +25,27 @@ h3 {
     display: flex;
 }
 
-.rockoozi,
-.bottom-image,
-.GIprize,
-.thesis,
-.paper01,
-.paper02 {
+.group_a,
+.group_b,
+.individual_a,
+.individual_b,
+.individual_c,
+.individual_d {
     position:absolute;
     left:0;
-    bottom:20%;
+    top:50%;
     background-color: red;
     color: white;
-    width: 260px;
-    font-size: x-large;
-    text-decoration: none;
+    width: fit-content;
     padding-left: 5px;
 }
 
-.rockoozi span,
-.bottom-image span,
-.GIprize span,
-.thesis span,
-.paper01 span,
-.paper02 span {
+.group_a span,
+.group_b span,
+.individual_a span,
+.individual_b span,
+.individual_c span,
+.individual_d span {
     font-size:large;
     font-weight:lighter;
 }
@@ -56,11 +54,10 @@ h3 {
     display:flex;
 }
 
-.GIprize,
-.thesis,
-.paper01,
-.paper02 {
-    width:220px;
+.individual_a,
+.individual_b,
+.individual_c,
+.individual_d {
     font-size:large;
     text-decoration:none;
 }
@@ -143,7 +140,6 @@ h3 {
 .bottom:hover,
 .left section:hover,
 .right section:hover {
-    cursor: pointer;
     -moz-animation: blink normal 1s infinite ease-in-out; /* Firefox */
     -webkit-animation: blink normal 1s infinite ease-in-out; /* Webkit */
     -ms-animation: blink normal 1s infinite ease-in-out; /* IE */
@@ -152,11 +148,11 @@ h3 {
 
 @media screen and (max-width: 992px) {
 
-    #works {
+    .works {
         display:block;
     }
 
-    #apps {
+    .apps {
         margin-top: 20px;
     }
 

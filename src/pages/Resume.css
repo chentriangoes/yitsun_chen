@@ -2,6 +2,15 @@ body {
   padding-right: 60px;
 }
 
+.resume {
+  height:100%;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+}
+
 h2 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -12,6 +21,13 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 380px;
+  margin: 30px;
+  
 }
 
 .resume .resume-title {
@@ -73,10 +89,7 @@ h2 {
     border: 2px solid #0563bb;
   }
 
-.container {
-  width: 100%;
-  padding-left: 30px;
-}
+
 
 
 
@@ -91,11 +104,7 @@ h2 {
     margin-left: calc(-0.5 * var(--bs-gutter-x));
   }*/
 
-  .col-lg-6 {
-    flex: 0 0 auto;
-    width: fit-content;
-    margin-right: 30px;
-  }
+
 
   .resume em {
     color:red;

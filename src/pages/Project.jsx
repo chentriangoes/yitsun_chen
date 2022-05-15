@@ -1,5 +1,5 @@
 import React from 'react';
-import TaiwanLove from '../images/TaiwanLove.jpg';
+import Lanyu01 from '../images/Lanyu01.jpg';
 import Lanyu02 from '../images/Lanyu02.jpeg';
 import knight01 from '../images/knight_01.jpg';
 import knight02 from '../images/knight_02.jpg';
@@ -15,61 +15,59 @@ import './Project.css'
 export default function Project() {
   return (
     <div>
-      <section id="works">
-          <section id="apps">
+      <section className="works">
+          <section className="apps">
             <section className="top">
-                 <img src={TaiwanLove} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
+                 <img src={Lanyu01} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
                    indigenous elderly of Dao's account about the underground house." width="100%" />
-                   <a className="rockoozi" rel="noreferrer" href="https://project-2-dw.herokuapp.com/" target="_blank">
-                     <h3>Junglr. <span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/junglr./")}/></span></h3>
-                     
-                   </a>
+                   <h3 className="group_a"><a rel="noreferrer" href="https://project-2-dw.herokuapp.com/" target="_blank">
+                   Junglr.
+                   </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/junglr./")}/></span></h3>
             </section>
 
             <section className="middle">
-              <sectiion className="left">
+              <section className="left">
                 <section>
                   <img src={knight01} alt="This is upper-left part of a giant wooshies of 4 Qingshan King's
                      knights and 5 transformers taken at Bangka Qingshan Temple, Taiwan." width="100%" />
-                   <a className="GIprize" rel="noreferrer" href="https://github.com/chentriangoes/Cocktail_Diversifier" target="_blank">
-                     <h3>Coding Project <span>Cocktail Diversifier</span></h3>
-                  </a>
+                     <h3 className="individual_a"><a rel="noreferrer" href="https://chentriangoes.github.io/ScheduledDay/" target="_blank">
+                     Day Planner
+                     </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/ScheduledDay")}/></span></h3>
                 </section>
 
                 <section>
                   <img src={knight03} alt="This is the upper-right part of a giant wooshies of 4 Qingshan King's
-                       knights and 5 transformers taken at Bangka Qingshan Temple, Taiwan." width="100%" />
-                     <a className="thesis" rel="noreferrer" href="https://github.com/chentriangoes/rainorsun" target="_blank">
-                       <h3>Coding Assignment <span>Weather Dashboard</span></h3>
-                     </a>
+                     knights and 5 transformers taken at Bangka Qingshan Temple, Taiwan." width="100%" />
+                     <h3 className="individual_b"><a rel="noreferrer" href="https://chentriangoes.github.io/CodingChallenge/" target="_blank">
+                     Coding Quiz
+                     </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/CodingChallenge")}/></span></h3>
                 </section>
-              </sectiion>
+              </section>
 
               <section className="right">
                 <section>
                   <img src={knight02} alt="This is the bottom-left part of a giant wooshies of 4 Qingshan King's
                      knights and 5 transformers taken at Bangka Qingshan Temple, Taiwan." width="100%" />
-                     <a className="paper01" rel="noreferrer" href="https://github.com/chentriangoes/NoteTaker" target="_blank">
-                       <h3>Coding Assignment <span>Note Taker</span></h3>
-                     </a>
+                     <h3 className="individual_c"><a rel="noreferrer" href="https://mighty-woodland-73767.herokuapp.com/notes" target="_blank">
+                     Note Taker
+                     </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/NoteTaker")}/></span></h3>
                 </section>
 
                 <section>
                   <img src={knight04} alt="This is the bottom-right part of a giant wooshies of 4 Qingshan King's
                      knights and 5 transformers taken at Bangka Qingshan Temple, Taiwan." width="100%" />
-                     <a className="paper02" rel="noreferrer" href="https://github.com/chentriangoes/HRManagement" target="_blank">
-                       <h3>Coding Assignment <span>HRmanagement </span></h3>
-                     </a>
+                     <h3 className="individual_d"><a rel="noreferrer" href="https://lit-cliffs-86624.herokuapp.com/" target="_blank">
+                     Text Editor
+                     </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/textEditor")}/></span></h3>
                 </section>
               </section>
             </section>
 
             <section className="bottom">
-                 <img src={Lanyu02} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun listening to an 
-                   indigenous elderly of Dao's account about the underground house." width="100%" />
-                   <a className="bottom-image" rel="noreferrer" href="https://github.com/chentriangoes/junglr." target="_blank">
-                     <h3>Coding Project <span>Junglr.</span></h3>
-                   </a>
+                 <img src={Lanyu02} alt="This was taken at Orchid Island of Taiwan with Yi-Tsun and his fellow international volunteers." width="100%" />
+                   <h3 className="group_b"><a rel="noreferrer" href="https://chentriangoes.github.io/Cocktail_Diversifier/index.html" target="_blank">
+                     Cocktail Diversifier
+                     </a><br/><span>Codes <FontAwesomeIcon className="socialicon" icon={faGithub} size="1x" onClick={() => window.open("https://github.com/chentriangoes/Cocktail_Diversifier")}/></span></h3>
             </section>
 
           </section>   
