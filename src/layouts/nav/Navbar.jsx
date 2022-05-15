@@ -6,12 +6,8 @@ import ShadeButton from '../../components/button/ShadeButton';
 export default function Navbar() {
     const navItems = [
         {
-            title: 'Home 首頁',
-            link: '/',
-        },
-        {
             title: 'About Dr Chen 陳博',
-            link: '/about',
+            link: '/',
         },
         {
             title: 'Works 作品',
@@ -47,7 +43,7 @@ export default function Navbar() {
     }
 
   return (
-    <nav>
+    <nav className='navbar'>
         <ul className='flex items-center justify-center'>
             <li style={liStyle}>LOGO</li>
 

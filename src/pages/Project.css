@@ -1,0 +1,173 @@
+:root {
+    --black:black;
+    --border:6px solid red;
+}
+
+h3 {
+    color: white;
+}
+
+#works {
+    display:flex;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.top {
+    /*define height*/
+    opacity: 50%;
+    border-style: solid;
+    border-color:cornsilk;
+    border-width: 7px;
+    margin-bottom: 24px;
+    margin-left: 5px;
+    position:relative;
+    display: flex;
+}
+
+.rockoozi,
+.GIprize,
+.thesis,
+.paper01,
+.paper02 {
+    position:absolute;
+    left:0;
+    bottom:20%;
+    background-color: red;
+    color: white;
+    width: 260px;
+    font-size: x-large;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.rockoozi span,
+.GIprize span,
+.thesis span,
+.paper01 span,
+.paper02 span {
+    font-size:large;
+    font-weight:lighter;
+}
+
+.bottom {
+    display:flex;
+}
+
+.GIprize,
+.thesis,
+.paper01,
+.paper02 {
+    width:220px;
+    font-size:large;
+    text-decoration:none;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.right {
+    margin-right:0px;
+    margin-left:5px;
+}
+
+.left section,
+.right section {
+    /*define height*/
+    opacity: 50%;
+    border-style: solid;
+    border-color:cornsilk;
+    border-width: 7px;
+    margin-bottom: 24px;
+    margin-left: 5px;
+    position:relative;
+    display:flex;
+}
+
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:0.8;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:0.8;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:0.8;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100% {
+        opacity:0.8;
+    }
+} 
+
+.top:hover,
+.left section:hover,
+.right section:hover {
+    cursor: pointer;
+    -moz-animation: blink normal 1s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 1s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 1s infinite ease-in-out; /* IE */
+    animation: blink normal 1s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+@media screen and (max-width: 992px) {
+
+    #works {
+        display:block;
+        margin-left: 40px;
+    }
+
+    #apps {
+        margin-top: 20px;
+    }
+
+    .bottom {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        margin-right: 0px;
+}
+
+    .right {
+        margin-left:0px;
+}
+}
+

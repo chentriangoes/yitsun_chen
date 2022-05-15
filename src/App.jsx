@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Work from "./pages/Work";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
@@ -12,7 +11,6 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     // home -- /
-    // about -- /about 
     // work -- /work
     // project -- /project
     // Resume -- /resume
@@ -24,7 +22,6 @@ function App() {
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
       <Route path="/work" element={<Work />} />
       <Route path="/coding" element={<Project />} />
       <Route path="/contact" element={<Contact />} />

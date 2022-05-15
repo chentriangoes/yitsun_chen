@@ -5,6 +5,8 @@ import knight02 from '../images/knight_02.jpg';
 import knight03 from '../images/knight_03.jpg';
 import knight04 from '../images/knight_03.jpg';
 
+import './Project.css'
+
 
 export default function Project() {
   return (
