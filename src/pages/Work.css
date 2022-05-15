@@ -1,0 +1,21 @@
+/*projects*/
+.work {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.youtube section {
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+figcaption {
+    text-align: right;
+}
+
+
