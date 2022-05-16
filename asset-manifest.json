@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/yitsun_chen/static/css/main.3802e471.css",
+    "main.js": "/yitsun_chen/static/js/main.755c4238.js",
+    "static/js/787.502a99c6.chunk.js": "/yitsun_chen/static/js/787.502a99c6.chunk.js",
+    "static/media/yitsun03.gif": "/yitsun_chen/static/media/yitsun03.4f653c6df5a727d667e3.gif",
+    "static/media/yitsun01.gif": "/yitsun_chen/static/media/yitsun01.bff60562009fd3a1acbb.gif",
+    "static/media/yitsun02.gif": "/yitsun_chen/static/media/yitsun02.097f82708dea53aecd46.gif",
+    "static/media/yitsun04.gif": "/yitsun_chen/static/media/yitsun04.2cf096db718fe035ed91.gif",
+    "static/media/Lanyu01.jpg": "/yitsun_chen/static/media/Lanyu01.ae99210c0e51846c90ec.jpg",
+    "static/media/knight_01.jpg": "/yitsun_chen/static/media/knight_01.f2aadfae130cc4112313.jpg",
+    "static/media/knight_02.jpg": "/yitsun_chen/static/media/knight_02.ca2a43a8997b5bfcd778.jpg",
+    "static/media/knight_03.jpg": "/yitsun_chen/static/media/knight_03.c39408e83f0da81275ca.jpg",
+    "static/media/Resume_Yi-Tsun.pdf": "/yitsun_chen/static/media/Resume_Yi-Tsun.67210673f2cef60dd439.pdf",
+    "static/media/Lanyu02.jpeg": "/yitsun_chen/static/media/Lanyu02.043d7b727b475e24444b.jpeg",
+    "static/media/logo.jpg": "/yitsun_chen/static/media/logo.c19157f1e3fe16972e27.jpg",
+    "index.html": "/yitsun_chen/index.html",
+    "main.3802e471.css.map": "/yitsun_chen/static/css/main.3802e471.css.map",
+    "main.755c4238.js.map": "/yitsun_chen/static/js/main.755c4238.js.map",
+    "787.502a99c6.chunk.js.map": "/yitsun_chen/static/js/787.502a99c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3802e471.css",
+    "static/js/main.755c4238.js"
+  ]
+}
