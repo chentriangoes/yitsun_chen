@@ -9,7 +9,7 @@ export default function Navbar() {
     const navItems = [
         {
             title: 'About Dr Chen 陳博',
-            link: '/yitsun_chen',
+            link: '/',
         },
         {
             title: 'Works 作品',
