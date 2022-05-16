@@ -1,5 +1,5 @@
 import React from 'react';
-import Career from '../downloads/yitsun.pdf';
+import Career from '../downloads/Resume_Yi-Tsun.pdf';
 import "./Resume.css"
 
 export default function Resume() {
