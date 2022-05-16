@@ -1,16 +1,26 @@
-參考資料：
-https://www.youtube.com/watch?v=5I37iVCDUTU
-MUI https://mui.com/zh/material-ui/getting-started/installation/
-styled components  https://github.com/styled-components/styled-components
-
 # yitsun_chen_Portfolio
-Yi-tsun's react portfolio 
+Yi-tsun's react portfolio through React.js
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📋 Description
+This project is to create Yi-Tsun's Portfolio Web Page through React.js, providing information about my skills and propspective web applications with placeholder images and names. Establishing a personal webpage introducing my own works and experiences, it aims to improve my visibility to the public as well as potential employers recruiting fresh team members. This portfolio page is expected for my works, experiences and capacities to be reached out and acknowledged by more potential employers.
 
 ### 📷 Screenshots
+* Home/About
+![Home/About](./public/screenshots/01_about.png)
+
+* Work
+![Work](./public/screenshots/02_work.png)
+
+* Project
+![Project](./public/screenshots/03_project.png)
+
+* Contact
+![Contact](./public/screenshots/04_contact.png)
+
+* Resume
+![Resume](./public/screenshots/05_resume.png)
 
 
 ## 🕹 Technologies
@@ -20,12 +30,6 @@ Yi-tsun's react portfolio
 * [Emailjs](https://www.emailjs.com/docs/examples/reactjs/)
 * [React-boostrap](https://react-bootstrap.github.io/getting-started/introduction/)
 
-
-
-
-
-
- 
 
 ## Installation
 
@@ -39,22 +43,29 @@ Install dependencies
 npm i
 ```
 
+Run the application
+```
+npm start
+```
+
 ## Troubleshooting
 
 
 ## ⛓ Links
 Depolyed Application
 
+Heroku:
+https://yitsunchen.herokuapp.com/
 
-Github
+GitHub:
+
+
+Source Codes
 https://github.com/chentriangoes/React_Portfolio
 
 ## ☎️ Questions
 For any questions about the project/repository please contact me @ [chentriangoes@gmail.com](mailto:chentriangoes@gmail.com) </br>
 GitHub @ [chentriangoes](https://github.com/chentriangoes) 
-
-
-
 
 
 
