@@ -13,9 +13,9 @@ function App() {
     // home -- /
     // work -- /work
     // project -- /project
+    // contact -- /project
     // Resume -- /resume
-    // Blog -- /blog (with image holder, add this if having time)
-
+   
     <BrowserRouter>
     
     <MainLayout>
