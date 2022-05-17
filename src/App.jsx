@@ -21,7 +21,7 @@ function App() {
     <MainLayout>
 
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/yitsun_chen" element={<Home />} />
       <Route path="/work" element={<Work />} />
       <Route path="/coding" element={<Project />} />
       <Route path="/contact" element={<Contact />} />
