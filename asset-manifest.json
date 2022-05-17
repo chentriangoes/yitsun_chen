@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yitsun_chen/static/css/main.3802e471.css",
-    "main.js": "/yitsun_chen/static/js/main.755c4238.js",
+    "main.js": "/yitsun_chen/static/js/main.ae754461.js",
     "static/js/787.502a99c6.chunk.js": "/yitsun_chen/static/js/787.502a99c6.chunk.js",
     "static/media/yitsun03.gif": "/yitsun_chen/static/media/yitsun03.4f653c6df5a727d667e3.gif",
     "static/media/yitsun01.gif": "/yitsun_chen/static/media/yitsun01.bff60562009fd3a1acbb.gif",
@@ -16,11 +16,11 @@
     "static/media/logo.jpg": "/yitsun_chen/static/media/logo.c19157f1e3fe16972e27.jpg",
     "index.html": "/yitsun_chen/index.html",
     "main.3802e471.css.map": "/yitsun_chen/static/css/main.3802e471.css.map",
-    "main.755c4238.js.map": "/yitsun_chen/static/js/main.755c4238.js.map",
+    "main.ae754461.js.map": "/yitsun_chen/static/js/main.ae754461.js.map",
     "787.502a99c6.chunk.js.map": "/yitsun_chen/static/js/787.502a99c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3802e471.css",
-    "static/js/main.755c4238.js"
+    "static/js/main.ae754461.js"
   ]
 }
