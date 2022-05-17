@@ -128,23 +128,21 @@ export default function Contact() {
 						Send Message
 					</Button>
 				</Form>
-
+		
 				{messageSent && (
 					<Alert
-						className='my-3 text-white'
-						style={{ ...styles.buttonColour, ...styles.border }}
+						className='alert'
 					>
-						Message Sent!
+						Message Sent, Thank You!
 					</Alert>
 				)}
 				{errorMessage && (
 					
 					<Alert
-						className='my-3 text-white'
+						className='alert'
 						/*change style plase */
-						style={{ ...styles.buttonColour, ...styles.border }}
 					>
-						Error sending email!
+						Oooops, an Error! Please Send Me an Email to chentriangle@gmail.com instead!
 					</Alert>
 				)}
 			</Container>

@@ -22,14 +22,12 @@ This project is to create Yi-Tsun's Portfolio Web Page through React.js, providi
 * Resume
 ![Resume](./public/screenshots/05_resume.png)
 
-
 ## 🕹 Technologies
 * [gh-pages](https://www.npmjs.com/package/gh-pages)
 * [React Router](https://reactrouter.com/docs/en/v6/getting-started/installation)
 * [fontawesome](https://fontawesome.com/v6/docs/web/use-with/react/)
 * [Emailjs](https://www.emailjs.com/docs/examples/reactjs/)
 * [React-boostrap](https://react-bootstrap.github.io/getting-started/introduction/)
-
 
 ## Installation
 
@@ -50,16 +48,26 @@ npm start
 
 ## Troubleshooting
 
+* [Create-React-APP](https://create-react-app.dev/docs/deployment/#github-pages)
+
+Scripts added for React Project to be deployed at github page
+```
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+```
+
+Also add the following
+```
+"homepage": ""homepage": "https://myusername.github.io/my-app"",
+```
 
 ## ⛓ Links
-Depolyed Application
+Depolyed to GitHub:
+https://chentriangoes.github.io/yitsun_chen/ 
 
-Heroku:
+Depolyed to Heroku:
 https://yitsunchen.herokuapp.com/
-
-GitHub:
-
-
+ 
 Source Codes
 https://github.com/chentriangoes/React_Portfolio
 
